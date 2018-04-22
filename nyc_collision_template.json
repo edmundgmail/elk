@@ -5,24 +5,6 @@
   },
   "mappings": {
     "doc": {
-      "dynamic_templates": [
-        {
-          "string_fields": {
-            "mapping": {
-              "type": "text",
-              "omit_norms": true,
-              "fields": {
-                "keyword": {
-                  "type": "keyword",
-                  "ignore_above": 256
-                }
-              }
-            },
-            "match_mapping_type": "string",
-            "match": "*"
-          }
-        }
-      ],
       "properties": {
         "location": {
           "type": "geo_point",
