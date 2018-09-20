@@ -1,12 +1,6 @@
-1. Please run following to generate the data file
-
-Download all the split* files, and put into a folder
-From the folder, run the following 
-
-$cat nyc_splitted*> nyc_collision_data.tar.gz
-$tar zxf nyc_collision_data.tar.gz 
-
-The nyc_collision_data.csv is the file we will use
+1.Download  nyc_collision_data.csv from 
+https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
+click export -> csv
 
 2. Donwload nyc_collision_template.json to current folder
 3. Download nyc_collision_logstash.conf to current folder
